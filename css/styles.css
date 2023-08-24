@@ -1,0 +1,69 @@
+:root {
+	--light-black-color: #626262;
+	--dark-white-color: #b4ad9e;
+	--very-dark-white-color: #7d7d7d;
+	--blue-color: #03a9f4;
+	--white-color: #ffffff;
+}
+
+body {
+	font-family: 'Playfair Display', serif;
+	font-weight: Regular;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	color: var(--light-black-color);
+}
+
+.container {
+	width: 906px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.header {
+	margin-top: 71px;
+	margin-bottom: 92px;
+}
+
+.header-link {
+	text-transform: uppercase;
+	color: var(--very-dark-white-color);
+}
+
+.header-link:hover {
+	color: var(--blue-color);
+}
+
+.gallery {
+	margin-bottom: 66px;
+}
+
+.gallery-articles {
+	margin-bottom: 70px;
+}
+
+.gallery-image {
+	width: 420px;
+	height: 280px;
+	margin-bottom: 62px;
+}
+
+.gallery-name {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	margin-bottom: 32px;
+	text-transform: uppercase;
+	color: var(--dark-white-color);
+}
+
+.gallery-title {
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+
+.gallery-button {
+	background-color: var(--white-color);
+	border: 1px solid var(--light-black-color);
+	padding: 20px 48px;
+}
