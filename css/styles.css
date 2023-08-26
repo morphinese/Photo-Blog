@@ -26,11 +26,6 @@ body {
 	margin-bottom: 92px;
 }
 
-.header-list {
-	display: flex;
-	gap: 20px;
-}
-
 .header-link {
 	text-transform: uppercase;
 	color: var(--very-dark-white-color);
