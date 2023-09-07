@@ -26,6 +26,13 @@ body {
 	margin-bottom: 92px;
 }
 
+.header-list {
+	display: flex;
+	flex-direction: row;
+	gap: 100px;
+	justify-content: center;
+}
+
 .header-link {
 	text-transform: uppercase;
 	color: var(--very-dark-white-color);
@@ -39,30 +46,62 @@ body {
 	margin-bottom: 66px;
 }
 
+.gallery-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .gallery-articles {
 	margin-bottom: 70px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	column-gap: 30px;
+	row-gap: 130px;
+	justify-content: space-between;
+}
+
+.gallery-article {
+	width: 420px;
+	display: flex;
+	flex-direction: column;
+	gap: 62px;
 }
 
 .gallery-image {
 	width: 420px;
 	height: 280px;
-	margin-bottom: 62px;
 }
 
 .gallery-name {
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 300;
-	margin-bottom: 32px;
 	text-transform: uppercase;
 	color: var(--dark-white-color);
 }
 
+.gallery-name:not(:last-child) {
+	margin-bottom: 32px;
+}
+
 .gallery-title {
 	font-size: 30px;
+}
+
+.gallery-title:not(:last-child) {
 	margin-bottom: 40px;
 }
 
+.gallery-text {
+}
+
+.gallery-text:not(:last-child) {
+	margin-bottom: 20px;
+}
+
 .gallery-button {
+	display: inline-block;
 	background-color: var(--white-color);
 	border: 1px solid var(--light-black-color);
 	padding: 20px 48px;
